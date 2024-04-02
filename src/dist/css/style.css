@@ -1,5 +1,204 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
   padding: 10;
   margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: #fcfcfc;
+}
+
+@font-face {
+  font-family: normal_text;
+  src: url(./public/assets/fonts/Poppins-Black.ttf);
+}
+@font-face {
+  font-family: bold_text;
+  src: url(./public/assets/fonts/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: light_text;
+  src: url(./public/assets/fonts/Poppins-Light.ttf);
+}
+/*!
+* Bootstrap  v5.3.3 (https://getbootstrap.com/)
+* Copyright 2011-2024 The Bootstrap Authors
+* Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+*/
+
+.first-container {
+  height: 100%;
+}
+.first-container .first-div {
+  height: 100%;
+  width: 100%;
+}
+.first-container .first-div .div1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #FF0000;
+  height: 100%;
+}
+.first-container .first-div .div1-logo {
+  flex: 1;
+  width: 50px;
+  object-fit: contain;
+  justify-self: start;
+  margin-left: 10px;
+}
+.first-container .first-div .div1-text {
+  display: flex;
+  flex-direction: row;
+  flex: 3;
+  color: white;
+  justify-self: center;
+  word-spacing: 30px;
+  padding-left: 20px;
+  align-items: center;
+  z-index: 10;
+  font-family: normal_text;
+}
+.first-container .first-div .div1 .button-container {
+  display: flex;
+  flex-direction: row;
+  flex: 2;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+.first-container .first-div .div1 .button-container .button {
+  font-family: normal_text;
+  background-color: white;
+  color: #FF0000;
+  width: 40%;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 30px 0px;
+}
+.first-container .first-div .div1 .button-container .button:hover {
+  color: white;
+}
+.first-container .first-div .div2 {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  height: 100%;
+}
+.first-container .first-div .div2-1 {
+  position: relative;
+  right: 50%;
+  top: 10%;
+  display: inline;
+}
+.first-container .first-div .div2-1 .center-image {
+  margin: auto;
+  height: 90%;
+  object-fit: contain;
+}
+.first-container .first-div .div2-1 .vector {
+  position: relative;
+  right: -85%;
+  bottom: 95%;
+  width: 20%;
+  height: 20%;
+}
+.first-container .first-div .div2-2 {
+  position: relative;
+  right: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.first-container .first-div .div2-2-image {
+  width: 100%;
+  object-fit: contain;
+}
+.first-container .first-div .div2-2 p {
+  padding: 2px;
+  font-family: normal_text;
+  color: black;
+}
+.first-container .first-div .div2-2 .p2 {
+  font-weight: bold;
+  font-family: normal_text;
+  color: black;
+  text-align: center;
+}
+.first-container .first-div .div2-2 .p2 span {
+  padding: 0px 10px;
+}
+.first-container .first-div .div2-2-button {
+  font-family: normal_text;
+  background-color: #FF0000;
+  width: 100%;
+  color: #FF0000;
+  padding: 30px 20px;
+  margin-bottom: 20px;
+  border-radius: 30px 0px;
+}
+.first-container .first-div .div2-2-button:hover {
+  color: white;
+}
+
+.seconde-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+}
+
+.third-container {
+  justify-content: center;
+}
+.third-container .rounded {
+  border-top: 8px solid #9d9d9d;
+  border-radius: 5px;
+  margin: 0px 3px;
+  background-color: #9d9d9d;
+}
+
+.forth-container {
+  height: 100%;
+}
+.forth-container-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+}
+.forth-container-1 p {
+  font-weight: bold;
+  font-family: normal_text;
+  width: 80%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.forth-container-2 {
+  display: flex;
+  flex-direction: row;
+  height: 80%;
+  justify-content: space-around;
+  align-items: center;
+}
+.forth-container-2 div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60%;
+  width: 25%;
+  background-color: rgba(237, 237, 237, 0.521);
+}
+.forth-container-2 div p {
+  text-align: center;
+  color: black;
+  font-family: normal_light;
+  font-size: 1.5em;
 }/*# sourceMappingURL=style.css.map */

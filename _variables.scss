@@ -1,13 +1,18 @@
 $primary_color:#FF0000;
+$secondary_color:white;
 $text_color_1:black;
 $text_color_2:white;
+$text_color_3:#FF0000;
 
 @font-face {
-    font-family: normal-text;
+    font-family: normal_text;
     src: url(./public/assets/fonts/Poppins-Black.ttf);
-    font-family: bold-text;
+}
+@font-face {
+    font-family: bold_text;
     src: url(./public/assets/fonts/Poppins-Bold.ttf);
-    font-family: light-text;
+}
+@font-face {
+    font-family: light_text;
     src: url(./public/assets/fonts/Poppins-Light.ttf);
 }
-
