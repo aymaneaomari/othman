@@ -96,7 +96,7 @@ flex-direction: column;
                 }
                 &-2{
                     position: relative;
-                    right: 45%;
+                    right: 35%;
                     @include flex_column();
                     justify-content: center;
                     &-image{
@@ -132,6 +132,7 @@ flex-direction: column;
                         &:hover{
                             color:$text_color_2;
                         }
+                        
                     }
                 }
             }
@@ -176,14 +177,21 @@ flex-direction: column;
         height: 80%;
         justify-content: space-around;
         align-items: center;
-        
+        .number{  @extend .h1;
+            font-size: 13rem;
+            position: relative;
+            left: 2.7%;
+            color: $text_color_3;
+            font-weight: bold;
+        }
         div{
             display: flex;
             align-items: center;
             justify-content: center;
             height: 60%;
             width: 25%;
-            background-color: rgba(237, 237, 237, 0.521);
+            background-color: rgb(244, 243, 243);
+            z-index: 10;
             p{
                 text-align: center;
                 color:$text_color_1;
@@ -193,3 +201,4 @@ flex-direction: column;
         }
     }
 }
+
